@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Sidebar from "../../drawer/Sidebar";
+import Script from '../../drawer/Script'
 
 const Navbar = () => {
   const [navToggle, setNavToggle] = useState(false);
@@ -59,7 +60,7 @@ const Navbar = () => {
               </ul>
               <div className="navbar-btns">
                 <button type="button" className="btn">
-                  <Sidebar />
+                  <Script />
                 </button>
               </div>
             </div>
